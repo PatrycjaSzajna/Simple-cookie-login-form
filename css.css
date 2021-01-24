@@ -1,0 +1,78 @@
+.body-class {
+  background-image: url("img/guillaume-galtier-3YrppYQPoCI-unsplash.jpg");
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.whole-container {
+  background-color: rgb(208, 199, 237);
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+h1 {
+  color: azure;
+  width: 100%;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 41px;
+}
+
+.form-class,
+.to-hide {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  color: azure;
+}
+
+input#fname {
+  width: 50%;
+  border-radius: 20px;
+  border: white;
+  padding: 4px;
+  margin-top: 10px;
+  outline: none;
+}
+input#fname:focus {
+  box-shadow: 0 0 3pt 2pt rgb(159, 155, 216);
+}
+
+input#fname::placeholder {
+  text-align: center;
+}
+
+.btn {
+  width: 30%;
+  border-radius: 20px;
+  border: white;
+  outline: none;
+  font-family: "Roboto";
+}
+
+.btn:active {
+  box-shadow: 0 0 3pt 2pt rgb(159, 155, 216);
+}
+
+.btn-out {
+  width: 30%;
+  border-radius: 20px;
+  border: white;
+  outline: none;
+  font-family: "Roboto";
+}
+
+.warning {
+  color: red;
+  font-weight: bold;
+}

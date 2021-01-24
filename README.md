@@ -1,0 +1,1 @@
+Just a simple prototype of login form that saves data in cookies.
